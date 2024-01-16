@@ -27,6 +27,12 @@ def create_table():
     conn.close()
 
 def register():
+    # default notebook style
+    Notebook()
+
+# info colored notebook style - inactive tab color
+    Notebook(bootstyle="info")
+
     username = register_username_entry.get()
     password = register_password_entry.get()
 
