@@ -1,3 +1,4 @@
+#ZIDAN ALFIAN MUBAROK 5230411107
 import PySimpleGUI as sg
 import sqlite3
 import datetime
@@ -124,7 +125,7 @@ def create_register_layout():
 def insert_data(id, location, time, temperature, tanggal):
     condition = determine_condition(temperature)
     
-    # Format nilai tanggal sesuai gaya yang diinginkan
+    # Format nilai tanggal sesuai gaya 
     formatted_tanggal = datetime.strptime(tanggal, "%Y-%m-%d %H:%M:%S").strftime("%d-%m-%Y %H:%M:%S")
     
     conn = sqlite3.connect("cuaca.db")
