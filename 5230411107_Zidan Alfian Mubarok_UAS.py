@@ -57,7 +57,7 @@ def verify_login(username, password):
 
 def create_login_layout():
     return [
-        [sg.Text("WeatherHub ", font=("Helvetica", 16))],
+        [sg.Text("🌍WeatherHub App", font=("Helvetica", 16))],
         [sg.Image(filename='44.png', size=(500, 200))],
         [sg.Text("Username:"), sg.InputText(key="login_username")],
         [sg.Text("Password:"), sg.InputText(key="login_password", password_char="*")],
