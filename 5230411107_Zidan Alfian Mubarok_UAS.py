@@ -4,7 +4,7 @@ import sqlite3
 import datetime
 from datetime import datetime
 
-
+#updated fix hild gui
 def create_table():
     conn = sqlite3.connect("cuaca.db")
     cursor = conn.cursor()
