@@ -1,4 +1,4 @@
-#ZIDAN ALFIAN MUBAROK 5230411107
+#ZIDAN ALFIAN MUBAROK @5230411107
 import PySimpleGUI as sg
 import sqlite3
 import datetime
