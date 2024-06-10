@@ -21,7 +21,7 @@ def create_table():
     conn.commit()
     conn.close()
 
-
+#2026
 def create_user_table():
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
